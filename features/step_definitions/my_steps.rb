@@ -21,3 +21,7 @@ end
 Given(/^veo el texto "(.*?)"$/) do |titulo|
   last_response.body.should =~ /#{titulo}/m
 end
+
+Then(/^se reinicia el juego$/) do
+  click_button("reiniciar")
+end

@@ -9,4 +9,4 @@ Scenario: al presionar reiniciar quitar cartas y repartir de nuevo.
   And el jugador "Juan" recibe dos cartas
   And el jugador "maquina" recibe dos cartas
   And veo el texto "Se termino el juego"
-  Then se inicia un nuevo juego
+  Then se reinicia el juego

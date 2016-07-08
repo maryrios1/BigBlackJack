@@ -13,3 +13,11 @@ end
 Then(/^el jugador "(.*?)" recibe dos cartas$/) do |player|
   last_response.body.should =~ /#{player}/m
 end
+
+Then(/^el jugador obtiene un numero$/) do
+  last_response.body.should =~"Tu puntaje es de:"
+end
+
+Then(/^mostrar ganador$/) do 
+  last_response.body.should =~"El ganador:"
+end

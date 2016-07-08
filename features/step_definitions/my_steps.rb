@@ -13,3 +13,11 @@ end
 Then(/^el jugador "(.*?)" recibe dos cartas$/) do |player|
   last_response.body.should =~ /#{player}/m
 end
+
+When(/^el usuario presione Reiniciar$/) do
+  click_button("reiniciar")
+end
+
+Given(/^veo el texto "(.*?)"$/) do |titulo|
+  last_response.body.should =~ /#{titulo}/m
+end

@@ -14,4 +14,8 @@ class Dealer
       return listCartas.size
   end
 
+  def isCarta carta
+   listCartas.index(carta)
+  end
+
 end

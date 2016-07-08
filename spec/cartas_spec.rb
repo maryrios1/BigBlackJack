@@ -10,5 +10,4 @@ describe Card do
     carta = Card.new 13,"Diamante"
     carta.value.should == 10
   end
-
 end

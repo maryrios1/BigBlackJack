@@ -44,6 +44,6 @@ class Card
     end
 
     def to_s
-      "#{display_rank} of #{@suit}, value #{value}"
+      "#{value}-#{@suit}"
     end
 end

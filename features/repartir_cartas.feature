@@ -6,5 +6,5 @@ Feature:
 Scenario: Cada Jugador debe de tener dos cartas
   Given que abri la aplicacion
   When se inicia un nuevo juego
-  Then el jugador "Juan" recive "J-corazon" y "A-rombos"
-  And el jugador "maquina" recive "3-picas" y "9-trebol"
+  Then el jugador "Juan" recibe dos cartas
+  And el jugador "maquina" recibe dos cartas
